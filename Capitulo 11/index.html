@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Capitulo 11</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispostivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.jpg" type="image/jpg">
+        <img src="Imagens/img-g.jpg" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender a reproduzir audios em HTML</p>
+   <audio controls>
+       <source src="Midia/Flauta Harry Potter Themesong (Fail Recorder Cover).mp3" type="audio/mp3">
+   </audio>
+   <h1>Colocando videos com HTML5</h1>
+   <h2>Inserindo vídeos hospedados localmente</h2>
+   <p>Esse vídeo está hospedando no meu próprio servidor</p>
+   <video src="Midia/comida.mp4" width="500" poster="Midia/Thumb CoS 01.jpg" controls></video>
+   <h2>Incorporando vídeos</h2>
+   <p>Video incorporado do youtube</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/xavxX0R4RkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <p>Video incorporado do vimeo</p>
+   <iframe src="https://player.vimeo.com/video/704282450?h=fc4c560090" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/704282450">Drawing Life</a> from <a href="https://vimeo.com/newyorker">NewYorker</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>

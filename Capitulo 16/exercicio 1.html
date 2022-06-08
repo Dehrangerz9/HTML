@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+</head>
+<style>
+    h1#selo {
+        text-align: center;
+        height: 300px;
+        width: 300px;
+        background-color: rgb(115, 131, 130);
+        border: 10px solid blue;
+        outline: 10px dashed red;
+    }
+
+    h1#placa{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: azure;
+        height: 250px;
+        width: 400px;
+        background-color: brown;
+        border-radius: 50px;
+        margin: 10px auto 10px auto;
+    }
+
+    h1#placa > p{
+        display: none;
+    }
+
+    h1#placa:hover{
+        box-shadow: 0px 5px 10px black;
+    }
+
+    h1#placa:hover > p {
+        display: block;
+
+    }
+</style>
+<body>
+    <h1 id="selo">Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de caixas box level, <a href="#"> mas os links são exemplos de caixas inline-level</a> Vamos ver como tudo isso funciona</p>
+    <br>
+    <h1 id="placa">A PLACA <p> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Não clique em mim</a></p></h1>
+</body>
+</html>

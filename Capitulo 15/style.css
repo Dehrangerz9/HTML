@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    background-color: orangered;
+}
+
+h1#main{
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+
+.basic{
+    color: brown;
+}
+
+.midlevel{
+    color: silver;
+}
+
+.advanced{
+    color: gold;
+}
+
+h2{
+    color: greenyellow;
+}

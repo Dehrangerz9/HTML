@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&family=Sacramento&display=swap');
+
+:root{
+    --cor0: #FB402E;
+    --cor1: #AB1507;
+    --cor2: #FF5747;
+    --cor3: #00AD4D;
+    --cor4: #AB1507;
+    --fonte-padrão: 'Roboto', Arial, sans-serif;
+    --fonte-destaque: 'Sacramento';
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: bisque;
+
+}
+
+nav{
+    overflow: hidden;
+    width: 100%;
+}
+
+nav span{
+   float: left;
+   font-family: var(--fonte-destaque);
+   color: white;
+   font-size: 2em;
+   padding-left: 10px;
+   max-width: 250px;
+}
+
+#links{
+    float: right;
+    margin-top: 14px;
+
+}
+
+nav a{
+    padding: 15px 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--fonte-padrão);
+    font-weight: lighter;
+}
+
+nav a:hover{
+    border: 1px solid var(--cor2);
+    border-radius: 50px;
+}
+
+header{
+    background-color: var(--cor1);
+}
+
+main{
+    margin: auto;
+    background-color: rgba(13, 109, 0, 0.575);
+    min-width: 500px;
+    max-width: 1800px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+}
+
+main div {
+    background-color: var(--cor1);
+    margin: 10px -10px 10px -10px;
+}
+
+main img{
+    width: 100%;
+    height: 500px;
+    min-width: 450px;
+    margin: auto;
+}
+
+main  h1{
+    font-family: var(--fonte-padrão);
+    font-weight: bolder;
+}
+
+main  h2{
+    font-family: var(--fonte-padrão);
+    font-weight: bolder;
+}
+
+main  p {
+    font-family: var(--fonte-padrão);
+}
+
+main  img {
+    min-width: 450px;
+}
