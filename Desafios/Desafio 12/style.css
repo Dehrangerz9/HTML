@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --fonte-padrao: 'Sriracha', 'cursive';
+    --fonte-destaque: 'Passion One', 'cursive';
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte-destaque);
+    font-size: 10vw;
+}
+
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+.estrofre {
+    padding: 50px 0px 50px 25px;
+    font-family: var(--fonte-padrao);
+}
+
+#paralax1{
+    background-image: url(imagens/background001.jpg);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#paralax2{
+    background-image: url(imagens/background002.jpg);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.estrofre p{
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+
+}
+
+#paralax1 p{
+    background-color: rgba(0, 0, 0, 0.281);
+    color: white;
+    width: 250px;
+}
+
+#paralax2 p{
+    background-color: rgba(0, 0, 0, 0.281);
+    color: white;
+    width: 250px;
+}
+
+
