@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: arial;
+            
+    }
+    table{
+        border: 1px solid black; 
+        width: 500px;
+        height: 500px;
+       background-color: green;
+    }
+    tr.linha{
+        background-color: burlywood;
+    }
+
+    td{
+        border: 1px solid black;
+        margin: auto;
+        text-align: center;
+        vertical-align: bottom;
+    }
+
+    td.destaque{
+        background-color: yellowgreen;
+    }
+</style>
+<body>
+    <h1>Primeira tabela</h1>
+    <!--
+        HIERARQUIA DE TABELAS SIMPLES
+        Table: Tabela
+            Table Row: Linha de tabela
+                Table Header: Cabeçalho da tabela
+                Table data: dado da tabela
+    -->
+        <table>
+            <tr> <!--Primeira linha-->
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr class="linha">
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td class="destaque">B3</td>
+                <td>C3</td>
+            </tr>
+        </table>
+        <!--
+            AS tabelas são estrututras muito rigidas, por isso, fique a tento a respeito da ordem do conteudo, se não ele é jogado pra fora da tabela.
+        -->
+</body>
+</html>
