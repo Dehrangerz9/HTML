@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <title>Formulario</title>
+</head>
+<body>
+    <!--
+        Nome > util para html e php
+        Id > util para JS e para uso de lavel
+        Pode usar a mesma coisa, mas nas aulas vamos usar o i pra id;
+        No for sempre poe o id
+
+
+        Existem 2 metodos de formulario
+        o primeiro é esse é padrão que não tem nada, que é o metodo GET, ele coloca os dados na url
+
+        O metodo post deixa os dados ocultos na url.
+
+        Quando utilizar GET e Post
+        GET : quando os dados não foram sensiveis, ta pedidno nome, peso e etc. Não ta pedindo cpf, senha, cartão, enderaço.
+        Quando envio dados por get, eu só enviar até 3000 bytes, aproximadamente 3K letras.
+        Não utilizar o get para enviar arquivos ou fotos
+
+        POST : Utiliza ele para dados sensiveis, quando dados tiver +de 3K bytes, alem disso uso o post para enviar arquivos. 
+        -Aprender https
+    -->
+    <h1>Meu primeiro formulario</h1>
+    <form method="post" action="cadastro.php" autocomplete="off">
+        <p><label for="inome">Nombre</label> <input type="text" name="Nome" id="inome"></p>
+        <p><label for="Isobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="Isobrenome"></p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
